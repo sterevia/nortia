@@ -1,0 +1,56 @@
+    body {
+            background-color: rgb(0, 0, 0);
+        }
+         .link {
+            color: white
+        }
+
+        .paragraph {
+            position: absolute;
+            top: 40px;
+            font-family: 'Cascadia Mono';
+            font-size: 22px;
+            color: rgb(0, 162, 255);
+        }
+
+        ul {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 10000;
+            width: 100%;
+            left: 0;
+            right: 0;
+            z-index: 99999;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(0, 162, 255);
+            font-family: 'Cascadia Mono';
+        }
+
+        li {
+            float: left;
+            font-family: 'Cascadia Mono';
+        }
+
+            li a {
+                display: block;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Cascadia Mono';
+            }
+
+            li a:hover {
+                    background-color: rgb(0, 255, 157);
+                    font-family: 'Cascadia Mono';
+                }
+
+         ::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(0, 255, 157);
+        
+    }
